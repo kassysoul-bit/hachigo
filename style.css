@@ -46,3 +46,6 @@
 /* アクセス後は短い締めだけを表示 */
 .closing-note{padding:100px 6% 110px}.closing-note .closing-dates{font-size:clamp(22px,2.5vw,28px);line-height:2;letter-spacing:.04em;color:var(--ink)}.closing-note .closing-message{font-size:clamp(15px,1.6vw,18px);color:var(--gold);margin-top:32px;line-height:1.9}
 @media(max-width:700px){.closing-note{padding:80px 6% 90px}.closing-note .closing-message{margin-top:28px;letter-spacing:0}}
+
+/* SILVER WEEKとハチGO！の関係を補足 */
+.silver-subtitle{margin-bottom:12px}.silver-explanation{font-size:15px;line-height:1.8;color:var(--muted);margin:0 0 32px}.days-grid .section-label{letter-spacing:.1em;white-space:nowrap}.hachigo-transition h2{margin-top:0}
