@@ -49,3 +49,14 @@
 
 /* SILVER WEEKとハチGO！の関係を補足 */
 .silver-subtitle{margin-bottom:12px}.silver-explanation{font-size:15px;line-height:1.8;color:var(--muted);margin:0 0 32px}.days-grid .section-label{letter-spacing:.1em;white-space:nowrap}.hachigo-transition h2{margin-top:0}
+
+/* 初参加の安心感とソウルステップ体験 */
+.hero h1{font-size:44px}.hero-inner{padding:40px 0}.participation-copy{font-size:clamp(38px,4.5vw,56px);font-weight:700;line-height:1.35;letter-spacing:.025em;margin-top:24px;text-shadow:0 2px 5px #0009}.first-welcome{font-size:25px;color:var(--gold);font-weight:600;margin-top:16px}.participation-detail{font-size:18px;line-height:1.8;margin-top:16px;max-width:680px;text-shadow:0 1px 3px #0009}.hero .hero-copy{font-size:20px;line-height:1.7;margin-top:18px;letter-spacing:.02em}.hero-date{margin-top:24px}.welcome-reassurance{color:var(--gold);font-size:20px;margin-top:32px}.soul-step-content{max-width:900px}.lesson-description{font-size:18px;line-height:1.9}.lesson-flyer{display:block;max-width:680px;margin:32px auto 0}.lesson-flyer img{max-width:100%;height:auto}.lesson-note{text-align:center;margin-top:24px;color:var(--gold);font-size:18px}
+@media(max-width:700px){.hero h1{font-size:32px}.hero .hero-inner{padding:28px 0 34px}.hero .eyebrow{font-size:15px;margin-top:10px}.participation-copy{font-size:clamp(30px,8.8vw,38px);margin-top:20px}.first-welcome{font-size:22px;margin-top:12px}.participation-detail{font-size:16px;line-height:1.75;margin-top:12px}.hero .hero-copy{font-size:17px;margin-top:16px}.hero .hero-date{margin-top:20px}.hero .hero-venue{margin-top:12px}.hero .hero-price{margin-top:12px}.hero .arrival{margin-top:14px}.welcome-reassurance{font-size:18px}.lesson h2{font-size:clamp(21px,5.5vw,26px);letter-spacing:.02em}.lesson-description{font-size:16px}.lesson-note{font-size:16px}.soul-step-content{width:92%}.lesson-flyer{margin-top:26px}}
+
+.lesson-title-part{display:inline-block}
+
+/* 会場名をヘッダー内の1行に収める */
+.header .wordmark{font-size:22px;letter-spacing:.02em;white-space:nowrap}
+@media(max-width:700px){.header .wordmark{font-size:17px}}
+@media(max-width:360px){.header .wordmark{font-size:15px}}
