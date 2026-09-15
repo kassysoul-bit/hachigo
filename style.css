@@ -60,3 +60,8 @@
 .header .wordmark{font-size:22px;letter-spacing:.02em;white-space:nowrap}
 @media(max-width:700px){.header .wordmark{font-size:17px}}
 @media(max-width:360px){.header .wordmark{font-size:15px}}
+
+/* 最上部ヘッダーの会場名を2行表示 */
+.header .wordmark{font-size:18px;line-height:1.5;font-weight:600}
+@media(max-width:700px){.header .wordmark{font-size:13px;letter-spacing:0;line-height:1.6}}
+@media(max-width:360px){.header .wordmark{font-size:12px}}
