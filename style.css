@@ -65,3 +65,6 @@
 .header .wordmark{font-size:18px;line-height:1.5;font-weight:600}
 @media(max-width:700px){.header .wordmark{font-size:13px;letter-spacing:0;line-height:1.6}}
 @media(max-width:360px){.header .wordmark{font-size:12px}}
+
+/* 見出し近くの控えめなInstagram問い合わせ導線 */
+.hero .event-soon{font-size:14px;line-height:1.6;letter-spacing:.1em;color:var(--gold);margin:0 0 10px}.hero-inquiry{margin:18px 0 20px}.hero-inquiry p{font-size:14px;line-height:1.7;color:var(--muted);margin:0}.hero-inquiry .instagram-button{font-size:15px;font-weight:400;line-height:1.5;min-height:48px;padding:12px 18px;margin-top:10px;width:fit-content;max-width:100%;border-color:#bca57d70;color:var(--ink)}
