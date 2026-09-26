@@ -72,3 +72,11 @@
 /* 次回Hang OutとハチGO！開催後のご案内 */
 .next-event{min-height:460px}.next-event h1{white-space:normal;font-size:clamp(36px,5vw,58px);line-height:1.3}.next-event h1 span{display:block;font-size:clamp(18px,2.5vw,28px);line-height:1.5}.next-intro{max-width:800px}.next-intro h2{font-size:clamp(22px,3vw,32px)}.next-intro p+p{margin-top:24px}.next-flyer a,.next-flyer img{max-width:620px;width:100%;height:auto}.next-timetable{text-align:center;border-top:1px solid var(--line)}.next-timetable a{display:block;max-width:800px;margin:auto}.next-timetable img{width:100%;height:auto}.next-timetable .muted{font-size:14px;margin-top:16px}.hachigo-thanks{min-height:0;background:var(--soft);border-top:1px solid var(--gold)}.hachigo-thanks h2{font-size:44px;margin:0}.hachigo-thanks .hero-inner{padding:64px 0}.hachigo-thanks .first-welcome{font-size:clamp(20px,3vw,28px)}#inquiry .instagram-button{margin-left:auto;margin-right:auto}
 @media(max-width:700px){.next-event{min-height:400px}.next-timetable{width:92%}.hachigo-thanks h2{font-size:32px}.hachigo-thanks .hero-inner{padding:44px 0}.next-intro{padding-bottom:40px}.next-flyer{padding-top:40px}}
+
+/* Hang Outの最新チラシ4枚：PC2列、スマホ1列 */
+.event-flyers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 32px;align-items:start;margin-top:32px}
+.event-flyers figure{margin:0;min-width:0}
+.event-flyers figcaption{color:var(--gold);font-size:18px;margin-bottom:16px;line-height:1.6}
+.event-flyers a{display:block}
+.event-flyers img{display:block;width:100%;max-width:100%;height:auto}
+@media(max-width:700px){.event-flyers{grid-template-columns:minmax(0,1fr);gap:40px}.event-flyers figcaption{font-size:16px}#event-info{width:92%}}
